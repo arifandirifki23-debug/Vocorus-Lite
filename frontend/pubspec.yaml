@@ -1,0 +1,16 @@
+name: vocorus
+description: Vocorus - RQ Vortex build-ready
+version: 4.1.5+415
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/vocorus_final_logo.png
+    - assets/lottie/splash_animation.json

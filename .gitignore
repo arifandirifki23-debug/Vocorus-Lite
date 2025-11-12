@@ -1,0 +1,10 @@
+/.dart_tool/
+.build/
+.packages
+.pub/
+build/
+android/app/*.keystore
+android/local.properties
+ios/Runner/GoogleService-Info.plist
+node_modules/
+.env

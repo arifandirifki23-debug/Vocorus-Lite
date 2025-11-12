@@ -1,0 +1,16 @@
+{
+  "name": "vocorus",
+  "version": "4.1.5",
+  "description": "Vocorus - Smart Private Communication Platform by RQ Vortex",
+  "author": "RQ Vortex",
+  "license": "MIT",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm start"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
