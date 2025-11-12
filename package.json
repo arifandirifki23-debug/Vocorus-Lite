@@ -11,6 +11,7 @@
     "client": "cd frontend && npm start"
   },
   "dependencies": {
-    "concurrently": "^8.2.0"
+    "concurrently": "^8.2.0",
+    "express": "^5.1.0"
   }
 }
